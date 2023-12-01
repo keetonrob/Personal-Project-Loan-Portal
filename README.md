@@ -6,7 +6,6 @@ import bcrypt
 DATABASE_NAME = "agri_loans.db"
 db = pw.SqliteDatabase(DATABASE_NAME)
 
-# Define ORM Models
 class BaseModel(pw.Model):
     class Meta:
         database = db
